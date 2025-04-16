@@ -10,6 +10,10 @@ A Streamlit-based application that provides personalized TV show recommendations
 - Customizable model settings
 - Secure API key management
 
+## Try it Online
+
+You can test the application at: https://recommendmetv.streamlit.app/
+
 ## Components
 
 ### TVShowRAG Class
@@ -33,7 +37,7 @@ A Streamlit-based application that provides personalized TV show recommendations
 
 1. Install required packages:
 ```bash
-pip install streamlit langchain langchain-openai faiss-cpu python-dotenv
+pip install streamlit langchain langchain-openai langchain-community faiss-cpu python-dotenv
 ```
 
 2. Run the application:
